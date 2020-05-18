@@ -4,17 +4,12 @@ body {
   margin: 0;
 }
 
-.container {
-  padding: 0px 250px;
-}
-
 h1 {
-  padding: 10px 100px;
+  padding: 0px 100px;
   font-weight: 800;
   margin: 0;
   letter-spacing: -1px;
   color: inherit;
-  font-size: 40px;
 }
 
 h2 {
@@ -152,10 +147,10 @@ nav.circle ul li a:hover:after {
     transition: background .2s ease-in;
 }
 
-.navbar > div > p, .container > p { width: 70%; margin-left: auto; margin-right: auto;}
+.navbar > div > p, .container > p { font-size: 18px; width: 70%; margin-left: auto; margin-right: auto;}
 
 @media (max-width: 650px) {
-    .navbar > div > p, .container > p { font-size: 13px; width: 70%; margin-left: auto; margin-right: auto;}
+    .navbar > div > p, .container > p { font-size: 15px; width: 70%; margin-left: auto; margin-right: auto;}
 }
 footer {
 	padding: 0px;
@@ -272,3 +267,11 @@ img {
     height: 32px;
     border-radius: 100%;
 }
+
+/*
+.image-txt-container {
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+}
+*/
