@@ -147,7 +147,7 @@ nav.circle ul li a:hover:after {
 }
 
 .filter:hover{
-    background-color: #13b494;
+    background-color: #3fcfb3;
     color: black;
     transition: background .2s ease-in;
 }
