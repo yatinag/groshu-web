@@ -28,17 +28,19 @@ h2 {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	transition-duration: 1.2s;
-	transition-property: transform;
+  transition: box-shadow .3s;
 	float: center;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 	display: inline-block;
 }
 
-.logo:hover{
-		-ms-transform: rotate(360deg);
-		-moz-transform: rotate(360deg);
-		-webkit-transform: rotate(360deg);
-		transform: rotate(360deg);
+.logo:hover {
+  box-shadow: 0 0 20px rgba(33,33,33,.2); 
 }
 
 .navbar {
